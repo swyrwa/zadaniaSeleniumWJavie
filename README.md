@@ -1,20 +1,20 @@
 # zadaniaSeleniumWJavie
-1. webdriver:
+# H1 1. webdriver
+Zawiera zadania z plików:
 
-Zadania z plików:
+- Webdriver Java - operacje - cwiczenia
+- Webdriver Java - lokalizatory - cwiczenia
+- Kalkulator z Data driven Testing
+- Kalkuator z pobieraniem danych ze suity testowej
 
--Webdriver Java - operacje - cwiczenia
+# H1 2. POPProject1
+Zawiera zadania na Page Object Pattern
 
+- Klasy z POP dla Blazedemo
 
--Wedriver Java - lokalizatory - cwiczenia
+# H1 3. POPAddressBook
+Zawiera zadania na Page Object Pattern w podejściu Page Factory
 
-2. POPProject1
-
-
--Klasy z POP dla Blazedemo
-
-3. POPAddressBook
-
-
--Klasy z POP i Page Factory
+- Klasy z POP i Page Factory
+- pobieranie danych ze suity testowej
 
