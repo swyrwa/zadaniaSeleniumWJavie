@@ -3,7 +3,9 @@
 Zawiera klasy realizujace zadania z plików:
 
 *Webdriver Java - operacje - cwiczenia*
+
 *Webdriver Java - lokalizatory - cwiczenia*
+
 *Testowanie automatyczne w Selenium Webdriver z językiem Java*
 
 + klasa CalculatorTest testuje klasę Calculator z podejściem Data Driven Testing oraz pobieraniem danych ze suity testowej
