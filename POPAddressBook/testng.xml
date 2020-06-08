@@ -1,0 +1,30 @@
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test1" verbose="1">
+    <test name="Blazedemo Register Test" preserve-order="true" enabled="true">
+        <parameter name="email" value="trubadurzy43321@gmail.com"/>
+        <parameter name="passwd" value="pasword123"/>
+        <classes>
+            <class name="AddressBookTest">
+                <methods>
+                    <include name="registerUserTest"/>
+                    <include name="logoutUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Blazedemo LoginUser Test" preserve-order="true" enabled="true">
+        <parameter name="email" value="trubadurzy43321@gmail.com"/>
+        <parameter name="passwd" value="pasword123"/>
+        <classes>
+            <class name="AddressBookTest">
+                <methods>
+                    <include name="loginRegisteredUser"/>
+                    <include name="logoutUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+

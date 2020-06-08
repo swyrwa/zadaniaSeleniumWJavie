@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_calculator">
+              <span class="suite-name border-failed">Test calculator</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_calculator">
+                    <span>C:\Users\Slawa\IdeaProjects\webdriver\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_calculator">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_calculator">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_calculator">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_calculator">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_calculator">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_calculator">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_calculator" class="hide-methods failed suite-Test_calculator"> (hide)</a> <!-- hide-methods failed suite-Test_calculator -->
+                      <a href="#" panel-name="suite-Test_calculator" class="show-methods failed suite-Test_calculator"> (show)</a> <!-- show-methods failed suite-Test_calculator -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_calculator">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="selectMultiList">selectMultiList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_calculator -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_calculator" class="hide-methods passed suite-Test_calculator"> (hide)</a> <!-- hide-methods passed suite-Test_calculator -->
+                      <a href="#" panel-name="suite-Test_calculator" class="show-methods passed suite-Test_calculator"> (show)</a> <!-- show-methods passed suite-Test_calculator -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_calculator">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="ajaxTest">ajaxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="alertTest1">alertTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="alertTest2Cancel">alertTest2Cancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="alertTest2OK">alertTest2OK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="alertTest3OKInput">alertTest3OKInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="firstInputTest">firstInputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="googleListTest">googleListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="popupWindowsTest">popupWindowsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="secondInputTest">secondInputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="secondInputTestIncorrect">secondInputTestIncorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_calculator" title="ChromeTest" hash-for-method="selectListTest">selectListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_calculator -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_calculator" class="panel Test_calculator">
+          <div class="suite-Test_calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ChromeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMultiList">
+                  </a> <!-- selectMultiList -->
+                  <span class="method-name">selectMultiList</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ChromeTest.selectMultiList(ChromeTest.java:228)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_calculator-class-failed -->
+          <div class="suite-Test_calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ChromeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ajaxTest">
+                  </a> <!-- ajaxTest -->
+                  <span class="method-name">ajaxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertTest1">
+                  </a> <!-- alertTest1 -->
+                  <span class="method-name">alertTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertTest2Cancel">
+                  </a> <!-- alertTest2Cancel -->
+                  <span class="method-name">alertTest2Cancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertTest2OK">
+                  </a> <!-- alertTest2OK -->
+                  <span class="method-name">alertTest2OK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertTest3OKInput">
+                  </a> <!-- alertTest3OKInput -->
+                  <span class="method-name">alertTest3OKInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstInputTest">
+                  </a> <!-- firstInputTest -->
+                  <span class="method-name">firstInputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleListTest">
+                  </a> <!-- googleListTest -->
+                  <span class="method-name">googleListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popupWindowsTest">
+                  </a> <!-- popupWindowsTest -->
+                  <span class="method-name">popupWindowsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondInputTest">
+                  </a> <!-- secondInputTest -->
+                  <span class="method-name">secondInputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondInputTestIncorrect">
+                  </a> <!-- secondInputTestIncorrect -->
+                  <span class="method-name">secondInputTestIncorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectListTest">
+                  </a> <!-- selectListTest -->
+                  <span class="method-name">selectListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_calculator-class-passed -->
+        </div> <!-- panel Test_calculator -->
+        <div panel-name="test-xml-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Slawa\IdeaProjects\webdriver\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test calculator&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ChromeTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;firstInputTest&quot;/&gt;
+          &lt;include name=&quot;secondInputTest&quot;/&gt;
+          &lt;include name=&quot;secondInputTestIncorrect&quot;/&gt;
+          &lt;include name=&quot;googleListTest&quot;/&gt;
+          &lt;include name=&quot;ajaxTest&quot;/&gt;
+          &lt;include name=&quot;popupWindowsTest&quot;/&gt;
+          &lt;include name=&quot;alertTest1&quot;/&gt;
+          &lt;include name=&quot;alertTest2Cancel&quot;/&gt;
+          &lt;include name=&quot;alertTest2OK&quot;/&gt;
+          &lt;include name=&quot;alertTest3OKInput&quot;/&gt;
+          &lt;include name=&quot;selectListTest&quot;/&gt;
+          &lt;include name=&quot;selectMultiList&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ChromeTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Test calculator --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_calculator');
+function tableData_Test_calculator() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'popupWindowsTest')
+data.setCell(0, 2, 'ChromeTest')
+data.setCell(0, 3, 5996);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'firstInputTest')
+data.setCell(1, 2, 'ChromeTest')
+data.setCell(1, 3, 5589);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectMultiList')
+data.setCell(2, 2, 'ChromeTest')
+data.setCell(2, 3, 5358);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'googleListTest')
+data.setCell(3, 2, 'ChromeTest')
+data.setCell(3, 3, 2720);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ajaxTest')
+data.setCell(4, 2, 'ChromeTest')
+data.setCell(4, 3, 2533);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'alertTest1')
+data.setCell(5, 2, 'ChromeTest')
+data.setCell(5, 3, 1253);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectListTest')
+data.setCell(6, 2, 'ChromeTest')
+data.setCell(6, 3, 946);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'secondInputTest')
+data.setCell(7, 2, 'ChromeTest')
+data.setCell(7, 3, 728);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'secondInputTestIncorrect')
+data.setCell(8, 2, 'ChromeTest')
+data.setCell(8, 3, 628);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'alertTest2Cancel')
+data.setCell(9, 2, 'ChromeTest')
+data.setCell(9, 3, 580);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'alertTest3OKInput')
+data.setCell(10, 2, 'ChromeTest')
+data.setCell(10, 3, 326);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'alertTest2OK')
+data.setCell(11, 2, 'ChromeTest')
+data.setCell(11, 3, 267);
+window.suiteTableData['Test_calculator']= { tableData: data, tableDiv: 'times-div-Test_calculator'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Test_calculator">
+              </div> <!-- times-div-Test_calculator -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">googleListTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">10</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectMultiList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Florida</span>
+                <span class="reporter-method-output">Ohio</span>
+                <span class="reporter-method-output">Texas</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ChromeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">firstInputTest</span>
+                <span class="method-start">4245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondInputTest</span>
+                <span class="method-start">9838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondInputTestIncorrect</span>
+                <span class="method-start">10567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleListTest</span>
+                <span class="method-start">11196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ajaxTest</span>
+                <span class="method-start">13916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">popupWindowsTest</span>
+                <span class="method-start">16449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertTest1</span>
+                <span class="method-start">22452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertTest2Cancel</span>
+                <span class="method-start">23706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertTest2OK</span>
+                <span class="method-start">24287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertTest3OKInput</span>
+                <span class="method-start">24555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectListTest</span>
+                <span class="method-start">24883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectMultiList</span>
+                <span class="method-start">25830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">31203 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

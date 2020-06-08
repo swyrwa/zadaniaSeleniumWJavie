@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test calculator" verbose="1">
+    <test name="Calculator" preserve-order="true" enabled="true">
+        <parameter name="x" value="3"/>
+        <parameter name="y" value="6"/>
+        <parameter name="result" value="9"/>
+        <classes>
+            <class name="CalculatorTest"/>
+        </classes>
+    </test>
+    <test name="ChromeTest" preserve-order="true" enabled="true">
+        <classes>
+            <class name="ChromeTest">
+                <methods>
+                    <include name="firstInputTest"/>
+                    <include name="secondInputTest"/>
+                    <include name="secondInputTestIncorrect"/>
+                    <include name="googleListTest"/>
+                    <include name="ajaxTest"/>
+                    <include name="popupWindowsTest"/>
+                    <include name="alertTest1"/>
+                    <include name="alertTest2Cancel"/>
+                    <include name="alertTest2OK"/>
+                    <include name="alertTest3OKInput"/>
+                    <include name="selectListTest"/>
+                    <include name="selectMultiList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="FirefoxTest" preserve-order="true" enabled="true">
+        <classes>
+            <class name="FirefoxTest"/>
+        </classes>
+    </test>
+
+</suite>

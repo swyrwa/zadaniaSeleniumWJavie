@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test calculator]">
+  <test thread-count="5" verbose="0" name="ChromeTest(failed)">
+    <classes>
+      <class name="ChromeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="selectMultiList"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ChromeTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Test calculator] -->

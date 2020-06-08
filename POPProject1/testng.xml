@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test calculator" verbose="1">
+    <test name="Calculator" preserve-order="true" enabled="true">
+        <classes>
+            <class name="BlazeDemoTest"></class>
+        </classes>
+    </test>
+
+
+</suite>

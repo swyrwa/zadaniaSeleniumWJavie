@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test1" duration-ms="15809" started-at="2020-06-08T16:16:01 CEST" finished-at="2020-06-08T16:16:17 CEST">
+    <groups>
+    </groups>
+    <test name="Blazedemo Register Test" duration-ms="8736" started-at="2020-06-08T16:16:01 CEST" finished-at="2020-06-08T16:16:10 CEST">
+      <class name="AddressBookTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:AddressBookTest@71318ec4]" name="beforeClass" is-config="true" duration-ms="5592" started-at="2020-06-08T16:16:01 CEST" finished-at="2020-06-08T16:16:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="registerUserTest(java.lang.String, java.lang.String)[pri:0, instance:AddressBookTest@71318ec4]" name="registerUserTest" duration-ms="1772" started-at="2020-06-08T16:16:07 CEST" finished-at="2020-06-08T16:16:09 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trubadurzy43321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pasword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method status="PASS" signature="logoutUser()[pri:0, instance:AddressBookTest@71318ec4]" name="logoutUser" duration-ms="631" started-at="2020-06-08T16:16:09 CEST" finished-at="2020-06-08T16:16:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:AddressBookTest@71318ec4]" name="afterClass" is-config="true" duration-ms="690" started-at="2020-06-08T16:16:09 CEST" finished-at="2020-06-08T16:16:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AddressBookTest -->
+    </test> <!-- Blazedemo Register Test -->
+    <test name="Blazedemo LoginUser Test" duration-ms="7035" started-at="2020-06-08T16:16:10 CEST" finished-at="2020-06-08T16:16:17 CEST">
+      <class name="AddressBookTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:AddressBookTest@335eadca]" name="beforeClass" is-config="true" duration-ms="4417" started-at="2020-06-08T16:16:10 CEST" finished-at="2020-06-08T16:16:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginRegisteredUser(java.lang.String, java.lang.String)[pri:0, instance:AddressBookTest@335eadca]" name="loginRegisteredUser" duration-ms="1389" started-at="2020-06-08T16:16:14 CEST" finished-at="2020-06-08T16:16:16 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trubadurzy43321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pasword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRegisteredUser -->
+        <test-method status="PASS" signature="logoutUser()[pri:0, instance:AddressBookTest@335eadca]" name="logoutUser" duration-ms="499" started-at="2020-06-08T16:16:16 CEST" finished-at="2020-06-08T16:16:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:AddressBookTest@335eadca]" name="afterClass" is-config="true" duration-ms="728" started-at="2020-06-08T16:16:16 CEST" finished-at="2020-06-08T16:16:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AddressBookTest -->
+    </test> <!-- Blazedemo LoginUser Test -->
+  </suite> <!-- test1 -->
+</testng-results>

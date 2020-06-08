@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[10]]>
+    </line>
+    <line>
+      <![CDATA[Florida]]>
+    </line>
+    <line>
+      <![CDATA[Ohio]]>
+    </line>
+    <line>
+      <![CDATA[Texas]]>
+    </line>
+  </reporter-output>
+  <suite name="Test calculator" duration-ms="32046" started-at="2020-06-08T14:52:36 CEST" finished-at="2020-06-08T14:53:08 CEST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="32046" started-at="2020-06-08T14:52:36 CEST" finished-at="2020-06-08T14:53:08 CEST">
+      <class name="ChromeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ChromeTest@78c03f1f]" name="beforeClass" is-config="true" duration-ms="4245" started-at="2020-06-08T14:52:36 CEST" finished-at="2020-06-08T14:52:41 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="firstInputTest()[pri:0, instance:ChromeTest@78c03f1f]" name="firstInputTest" duration-ms="5589" started-at="2020-06-08T14:52:41 CEST" finished-at="2020-06-08T14:52:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstInputTest -->
+        <test-method status="PASS" signature="secondInputTest()[pri:0, instance:ChromeTest@78c03f1f]" name="secondInputTest" duration-ms="728" started-at="2020-06-08T14:52:46 CEST" finished-at="2020-06-08T14:52:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondInputTest -->
+        <test-method status="PASS" signature="secondInputTestIncorrect()[pri:0, instance:ChromeTest@78c03f1f]" name="secondInputTestIncorrect" duration-ms="628" started-at="2020-06-08T14:52:47 CEST" finished-at="2020-06-08T14:52:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondInputTestIncorrect -->
+        <test-method status="PASS" signature="googleListTest()[pri:0, instance:ChromeTest@78c03f1f]" name="googleListTest" duration-ms="2720" started-at="2020-06-08T14:52:48 CEST" finished-at="2020-06-08T14:52:50 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleListTest -->
+        <test-method status="PASS" signature="ajaxTest()[pri:0, instance:ChromeTest@78c03f1f]" name="ajaxTest" duration-ms="2533" started-at="2020-06-08T14:52:50 CEST" finished-at="2020-06-08T14:52:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ajaxTest -->
+        <test-method status="PASS" signature="popupWindowsTest()[pri:0, instance:ChromeTest@78c03f1f]" name="popupWindowsTest" duration-ms="5996" started-at="2020-06-08T14:52:53 CEST" finished-at="2020-06-08T14:52:59 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupWindowsTest -->
+        <test-method status="PASS" signature="alertTest1()[pri:0, instance:ChromeTest@78c03f1f]" name="alertTest1" duration-ms="1253" started-at="2020-06-08T14:52:59 CEST" finished-at="2020-06-08T14:53:00 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest1 -->
+        <test-method status="PASS" signature="alertTest2Cancel()[pri:0, instance:ChromeTest@78c03f1f]" name="alertTest2Cancel" duration-ms="580" started-at="2020-06-08T14:53:00 CEST" finished-at="2020-06-08T14:53:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest2Cancel -->
+        <test-method status="PASS" signature="alertTest2OK()[pri:0, instance:ChromeTest@78c03f1f]" name="alertTest2OK" duration-ms="267" started-at="2020-06-08T14:53:01 CEST" finished-at="2020-06-08T14:53:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest2OK -->
+        <test-method status="PASS" signature="alertTest3OKInput()[pri:0, instance:ChromeTest@78c03f1f]" name="alertTest3OKInput" duration-ms="326" started-at="2020-06-08T14:53:01 CEST" finished-at="2020-06-08T14:53:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest3OKInput -->
+        <test-method status="PASS" signature="selectListTest()[pri:0, instance:ChromeTest@78c03f1f]" name="selectListTest" duration-ms="946" started-at="2020-06-08T14:53:01 CEST" finished-at="2020-06-08T14:53:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectListTest -->
+        <test-method status="FAIL" signature="selectMultiList()[pri:0, instance:ChromeTest@78c03f1f]" name="selectMultiList" duration-ms="5358" started-at="2020-06-08T14:53:02 CEST" finished-at="2020-06-08T14:53:07 CEST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at ChromeTest.selectMultiList(ChromeTest.java:228)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Florida]]>
+            </line>
+            <line>
+              <![CDATA[Ohio]]>
+            </line>
+            <line>
+              <![CDATA[Texas]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectMultiList -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ChromeTest@78c03f1f]" name="afterClass" is-config="true" duration-ms="827" started-at="2020-06-08T14:53:08 CEST" finished-at="2020-06-08T14:53:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ChromeTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Test calculator -->
+</testng-results>
